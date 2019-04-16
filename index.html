@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Form Mini Project 3</title>
+</head>
+<body>
+    <form>
+        <p><label>Username: </label><input type="text" placeholder="Enter your name" required /></p>
+        <p><label>Email: </label><input type="email" placeholder="Enter your personal email address" required /></p>
+        <!--8 or more characters that are of at least one number, and one uppercase and lowercase letter-->
+        <p><label>Password: </label><input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required /></p>
+        <p><label>Birthday: </label><input type="date" required /></p>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
